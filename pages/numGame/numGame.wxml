@@ -1,0 +1,11 @@
+<view class="num-game-time">
+{{timeShow}} 秒
+</view>
+<view class="num-game-container">
+  <view bindtap="clickNum" class="num-game-item" wx:for="{{nums}}" wx:for-item="num" wx:key="{{num}}" id="{{num}}">
+    {{num}}
+  </view>
+</view>
+<button bindtap="startGame" class="num-game-startBtn">{{time > 0 ? '重新开始' : '开始游戏'}}</button>
+<view class="num-game-bestScore">最好成绩：{{bestScore || '还没有最好成绩哦！'}}</view>
+<view class="num-game-tip">玩法：{{gameTip}}</view>

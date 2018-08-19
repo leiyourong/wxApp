@@ -1,0 +1,44 @@
+.num-game-time {
+  margin: 10rpx auto;
+  text-align: center;
+}
+
+.num-game-container {
+  width: 700rpx;
+  height: 700rpx;
+  border: 1rpx solid #ccc;
+  border-radius: 20rpx;
+  margin: 30rpx auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.num-game-container .num-game-item {
+  margin: 10rpx;
+  width: 120rpx;
+  height: 120rpx;
+  line-height: 120rpx;
+  text-align: center;
+}
+
+.num-game-container .num-game-item:nth-child(even) {
+  background: #CCC;
+}
+
+.num-game-container .num-game-item:nth-child(odd) {
+  background: #B0C4DE;
+}
+
+.num-game-startBtn {
+  width: 80%;
+  margin: 40rpx auto;
+}
+
+.num-game-tip, .num-game-bestScore {
+  width: 80%;
+  margin: 40rpx auto;
+  text-align: center;
+}
+
+.num-game-tip {
+  color: #ccc;
+}
