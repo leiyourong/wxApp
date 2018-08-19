@@ -1,7 +1,7 @@
 {
   "pages":[
-    "pages/numGame/numGame",
-    "pages/index/index"
+    "pages/index/index",
+    "pages/numGame/numGame"
   ],
   "window":{
     "backgroundTextStyle":"light",

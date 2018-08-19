@@ -33,13 +33,6 @@ App({
       }
     })
   },
-  onHide: function() {
-    console.log('onHide')
-  },
-  onShow: function () {
-    console.log('onShow')
-    console.log(arguments)
-  },
   globalData: {
     userInfo: null
   }

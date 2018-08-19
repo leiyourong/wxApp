@@ -14,10 +14,12 @@
 }
 .num-game-container .num-game-item {
   margin: 10rpx;
-  width: 120rpx;
-  height: 120rpx;
-  line-height: 120rpx;
+  width: 118rpx;
+  height: 118rpx;
+  line-height: 118rpx;
   text-align: center;
+  border: 1rpx solid transparent;
+  border-radius: 6rpx;
 }
 
 .num-game-container .num-game-item:nth-child(even) {

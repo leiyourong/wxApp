@@ -10,4 +10,9 @@
   <view class="usermotto">
     <text class="user-motto">{{motto}}</text>
   </view>
+  <spinner size="large">
+    <text slot="left">left</text>
+    loading
+    <text slot="right">right</text>
+  </spinner>
 </view>

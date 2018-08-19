@@ -12,10 +12,11 @@ Page({
   //事件处理函数
   bindViewTap: function() {
     wx.navigateTo({
-      url: '../logs/logs'
+      url: '../numGame/numGame'
     })
   },
   onLoad: function () {
+    console.log(getCurrentPages())
     if (app.globalData.userInfo) {
       this.setData({
         userInfo: app.globalData.userInfo,

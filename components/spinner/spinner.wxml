@@ -1,0 +1,7 @@
+<view class="container">
+  <slot name="left"></slot>
+  <view class="{{'spinner ' + size}}">
+    <slot></slot>
+  </view>
+  <slot name="right"></slot>
+</view>
